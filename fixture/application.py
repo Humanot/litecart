@@ -1,5 +1,5 @@
-from selenium.webdriver import Chrome, Firefox, Opera, DesiredCapabilities
-from session import SessionHelper
+from selenium.webdriver import Firefox, DesiredCapabilities
+from fixture.session import SessionHelper
 
 class Application:
     def __init__(self):
