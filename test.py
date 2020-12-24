@@ -1,5 +1,5 @@
 def test_login(app):
-    driver = app
+    driver = app.driver
     driver.get("http://localhost/litecart/admin")
     admin_name = driver.find_element_by_name("username")
     admin_name.clear()
