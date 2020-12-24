@@ -4,7 +4,7 @@ class SessionHelper:
 
     def login(self, adminname, password):
         driver = self.app.driver
-        self.app.open_admin_page()
+        self.app.navigation.open_admin_page()
 
         # admin name
         admin_name = driver.find_element_by_name("username")
